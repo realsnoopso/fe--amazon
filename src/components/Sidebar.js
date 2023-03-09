@@ -9,7 +9,12 @@ class Sidebar extends HTMLElement {
     shadow.innerHTML = `
       <icon-element name="close" size="24" fill="var(--black-60)"></icon-element>
       <section class="main">
-        Main
+        <sidebar-back-element> </sidebar-back-element>
+        <sidebar-category-element> </sidebar-category-element>
+        <sidebar-fold-element> </sidebar-fold-element>
+        <sidebar-header-element> </sidebar-header-element>
+        <sidebar-list-element> </sidebar-list-element>
+        <sidebar-title-element> </sidebar-title-element>
       </section>
       </div>
       <section class="sub hide">
