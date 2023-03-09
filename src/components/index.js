@@ -11,6 +11,7 @@ import TextInput from './TextInput.js';
 import Action from './Action.js';
 import LoginAction from './Action/LoginAction.js';
 import ChangeAdressAction from './Action/ChangeAddressAction.js';
+import Backdrop from './Backdrop.js';
 
 customElements.define('btn-element', Button);
 customElements.define('footer-element', Footer);
@@ -25,3 +26,4 @@ customElements.define('text-input-element', TextInput);
 customElements.define('action-element', Action);
 customElements.define('login-action-element', LoginAction);
 customElements.define('change-address-action-element', ChangeAdressAction);
+customElements.define('backdrop-element', Backdrop);
