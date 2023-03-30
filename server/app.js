@@ -33,7 +33,7 @@ app.get('/search-recommend', (req, res) => {
     });
 });
 
-app.get('/search', (req, res) => {
+app.get('/search?q=d&limit=2', (req, res) => {
   const query = req.query.q;
   const page = req.query.page;
   const limit = req.query.limit;
