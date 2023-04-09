@@ -1,4 +1,4 @@
-export function customFetch({ url, method, body, headers }) {
+export async function customFetch({ url, method, body, headers }) {
   return fetch(url, { method, body, headers })
     .then((response) => {
       if (!response.ok) {
